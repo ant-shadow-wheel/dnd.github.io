@@ -1,0 +1,33 @@
+body {
+    background-color: darkslategrey;
+    color:aliceblue;
+    display: flex;
+    justify-content: space-around;
+    font-family: monospace;
+    font-size: 18px;
+}
+.sidecontent {
+    width: 45%;
+    height: 550px;
+
+    border: 5px solid black;    border-style: ridge ;    padding: 5px;
+    bottom: 5px;
+    display: block;
+    overflow-y: scroll;
+}
+.myref {
+    cursor: pointer;
+    font-weight: bold;
+}
+.italicp {
+    font-style: italic;
+}
+
+a:link,a:visited{
+    color: lightseagreen ;
+    text-decoration:none;}
+a:hover{
+    text-decoration: underline;}
+a:active{
+    color:black;
+    text-decoration: underline;}
